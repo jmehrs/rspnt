@@ -1,0 +1,9 @@
+[package]
+name = "rspnt"
+version = "0.1.0"
+edition = "2021"
+description = "A simple to use, efficient, and full-featured Command Line Argument Parser"
+authors = ["Jai Mehra"]
+
+[dependencies]
+clap = { version = "4.0.26", features = ["derive"] }
