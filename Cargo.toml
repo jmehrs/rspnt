@@ -7,3 +7,5 @@ authors = ["Jai Mehra"]
 
 [dependencies]
 clap = { version = "4.0.26", features = ["derive"] }
+tracing = "0.1.37"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter", "registry"] }
